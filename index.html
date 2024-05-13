@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js"></script>
+
+    <title>Lab 3. Melnychuk</title>
+</head>
+<body>
+    
+    <p><b><i>Завдання 1. В даному масиві із n дійсних чисел знайти добуток перших 5 від’ємних елементів:</i></b></p>
+   
+    <label for="numbersInput">Введіть дійсні числа через кому:</label>
+    <input type="text" id="numbersInput">
+    <button onclick="calculateProduct()">Обчислити добуток</button>
+    <div id="result_1"></div>
+    
+    <p><b><i>Завдання 2. З клавіатури вводиться текстовий рядок. Скласти скрипт, який виводить всі символи після першого символу “:”:</i></b></p>
+
+    <textarea id="textInput" rows="4" cols="50"></textarea>
+    <button onclick="extractAfterColon()">Витягти</button>
+    <div id="result_2"></div>
+
+    <!-- Приклад тексту для введення -->
+    <!-- Це приклад тексту: він містить потрібний символ -->
+    
+    <p><b><i>Завдання 3. Користувач вводить числа. Якщо число більше 10, то функція повертає квадрат числа, якщо менше 7 - пише, що число менше 7. Якщо 8, 9 - то повертає відповідно 7 або 8. Реалізуйте рішення з декількома return:</i></b></p>
+
+    <label for="numberInput">Введіть число:</label>
+    <input type="number" id="numberInput">
+    <button onclick="displayResult()">Обробити число</button>
+    <div id="result_3"></div>
+
+</body>
+</html>
